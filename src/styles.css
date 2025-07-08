@@ -1,0 +1,47 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; /* Optional: space between tabs */
+}
+
+.header {
+  padding: 10px 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  transition: background-color 0.3s ease;
+}
+
+.header:hover {
+  background-color: #e0e0e0;
+}
+
+.div-component {
+  display: flex;
+  border: 1px solid black;
+  height: 250px;
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.main-container {
+  display: block;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* space between fields */
+}
+.hobby-div {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
